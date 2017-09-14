@@ -1,0 +1,11 @@
+{
+  "name": "wp-starter-plugin",
+  "version": "1.0.0",
+  "description": "starter plugin for wp",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack -p --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
