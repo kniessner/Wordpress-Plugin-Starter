@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       WP Plugin Kniessner Complex
- * Plugin URI:        http://your_plugin_url.what/
+ * Plugin URI:        https://github.com/kniessner/wp_plugin_complex
  * Description:       Short description, appears in WordPress plugin admin
  * Version:           1.0
  * Author:            Sascha-Darius Knießner
