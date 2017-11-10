@@ -268,7 +268,7 @@ function be_attachment_field_credit( $form_fields, $post ) {
 
 	return $form_fields;
 }
-add_filter( 'attachment_fields_to_edit', 'be_attachment_field_credit', 10, 2 );
+//add_filter( 'attachment_fields_to_edit', 'be_attachment_field_credit', 10, 2 );
 /**
  * Save values of Photographer Name and URL in media uploader
  *
@@ -285,7 +285,7 @@ function be_attachment_field_credit_save( $post, $attachment ) {
 
 	return $post;
 }
-add_filter( 'attachment_fields_to_save', 'be_attachment_field_credit_save', 10, 2 );
+//add_filter( 'attachment_fields_to_save', 'be_attachment_field_credit_save', 10, 2 );
 
 /**
  * Add "Include in Rotator" option to media uploader
@@ -332,7 +332,7 @@ function be_attachment_field_rotator( $form_fields, $post ) {
 	// Return all form fields
 	return $form_fields;
 }
-add_filter( 'attachment_fields_to_edit', 'be_attachment_field_rotator', 10, 2 );
+//add_filter( 'attachment_fields_to_edit', 'be_attachment_field_rotator', 10, 2 );
 /**
  * Save value of "Include in Rotator" selection in media uploader
  *
@@ -347,5 +347,5 @@ function be_attachment_field_rotator_save( $post, $attachment ) {
 
 	return $post;
 }
-add_filter( 'attachment_fields_to_save', 'be_attachment_field_rotator_save', 10, 2 );
+//add_filter( 'attachment_fields_to_save', 'be_attachment_field_rotator_save', 10, 2 );
 ?>
