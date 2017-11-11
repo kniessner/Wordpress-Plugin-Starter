@@ -19,17 +19,6 @@ function mt_toplevel_page_menu_call_back()
   }
 }
 
-if( function_exists('acf_add_options_page') ) {
-
-    $page = acf_add_options_page(array(
-        'page_title' 	=> __('Media Settings', 'complex'),
-        'menu_title' 	=> __('Media Settings', 'complex'),
-        'menu_slug' 	=> 'media_settings',
-        'capability' 	=> 'edit_posts',
-        'redirect' 	    => false
-    ));
-
-}
 
 
 add_action( 'admin_menu', 'media_add_admin_menu' );
